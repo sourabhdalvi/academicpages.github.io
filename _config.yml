@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Sourabh Dalvi"
+title                    : ""
 title_separator          : "-"
 name                     : &name "Sourabh Dalvi"
 description              : &description "personal description"
@@ -55,7 +55,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : #&twitter
 facebook:
   username               :
   app_id                 :
@@ -175,7 +175,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  porjects:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -221,10 +221,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _porject
   - scope:
       path: ""
-      type: portfolio
+      type: porject
     values:
       layout: single
       author_profile: true
